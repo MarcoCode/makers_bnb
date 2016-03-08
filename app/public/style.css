@@ -1,0 +1,119 @@
+h1 {
+  font-family: Papyrus, fantasy;
+  font-size: 36px;
+  left: 510px;
+  top: 20px;
+  position: relative;
+}
+
+h3 {
+  font-family: Papyrus, fantasy;
+  font-size: 30px;
+  position: relative;
+  left: 580px;
+}
+
+body {
+  background-image: url("/images/background.jpg");
+  background-size: 130%;
+  background-repeat: no-repeat;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+input {
+  display: inline-block;
+  float: right;
+}
+
+#request {
+  position: relative;
+  top: -50px;
+}
+
+#request_date {
+  position: relative;
+  left: -130px;
+  top: 30px;
+  width: 160px;
+}
+
+textarea {
+  resize: none;
+    width: 296px;
+    height: 100px;
+}
+
+.in_main {
+  display: inline-block;
+  width: 300px;
+  text-align: left;
+}
+
+input.in_main {
+  width: 100px;
+  position: relative;
+  right: 150px;
+  text-align: center;
+}
+
+fieldset {
+  text-align: center;
+}
+
+#main {
+  border: solid thin;
+  width: 400px;
+  height: 280px;
+  position: absolute;
+  left: 500px;
+  top: 100px;
+  padding: 20px;
+}
+
+#main_signup {
+  border: solid thin;
+  width: 400px;
+  height: 340px;
+  position: absolute;
+  left: 500px;
+  top: 100px;
+  padding: 20px;
+}
+
+#pick_a_night {
+  font-family: Papyrus, fantasy;
+  position: relative;
+  left: 20px;
+  font-size: 22px;
+  top: -20px;
+}
+
+#spaces {
+  border: solid thin;
+  width: 600px;
+  height: 600px;
+}
+
+#space {
+  border: solid thin;
+  width: 450px;
+  height: 120px;
+}
+
+#price {
+  text-align: right;
+  position: relative;
+  left: 200px;
+}
+
+#request_date_picker {
+  
+  display: inline-block;
+  float: left;
+  left: 80px;
+  top: -40px;
+  position: relative;
+  
+}
